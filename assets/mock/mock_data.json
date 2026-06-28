@@ -430,5 +430,9 @@
     "seal_type_options": ["Heat Seal", "Cold Seal", "None"],
     "winding_options": ["Inside", "Outside"],
     "treatment_options": ["None", "Corona Treated", "Antistatic", "PVDC Coated"]
+  },
+  "registration": {
+    "customer_code": "PP001",
+    "message": "Registration successful"
   }
 }
