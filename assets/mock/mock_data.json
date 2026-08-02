@@ -1,6 +1,5 @@
 {
   "_comment": "Mock data for ENV=ui offline mode. PP001 = General User, PP002 = MIS User.",
-
   "users": [
     {
       "customer_code": "PP001",
@@ -27,7 +26,6 @@
       }
     }
   ],
-
   "dashboard": {
     "PP001": {
       "customer_name": "Ramesh Shah",
@@ -66,12 +64,20 @@
         "pending": 3
       },
       "reports": [
-        { "label": "Download Reports", "icon": "download" },
-        { "label": "Outstanding Summary", "icon": "receipt" },
-        { "label": "Overdue Summary", "icon": "warning" }
+        {
+          "label": "Download Reports",
+          "icon": "download"
+        },
+        {
+          "label": "Outstanding Summary",
+          "icon": "receipt"
+        },
+        {
+          "label": "Overdue Summary",
+          "icon": "warning"
+        }
       ]
     },
-
     "PP002": {
       "customer_name": "Ramesh Shah",
       "customer_code": "CUST-PP0156",
@@ -122,22 +128,126 @@
         "pending": 3
       },
       "reports": [
-        { "label": "Download Reports", "icon": "download" },
-        { "label": "Outstanding Summary", "icon": "receipt" },
-        { "label": "Overdue Summary", "icon": "warning" }
+        {
+          "label": "Download Reports",
+          "icon": "download"
+        },
+        {
+          "label": "Outstanding Summary",
+          "icon": "receipt"
+        },
+        {
+          "label": "Overdue Summary",
+          "icon": "warning"
+        }
       ]
     }
   },
-
   "enquiries": {
     "summary": {
-      "total": 26,
-      "submitted": 8,
+      "total": 27,
+      "submitted": 6,
       "suggestion_available": 5,
-      "accepted": 7,
-      "rejected": 2
+      "accepted": 13,
+      "rejected": 3
     },
     "items": [
+      {
+        "id": "ENQ-2025-0058",
+        "product_category": "BOPP",
+        "product_type": "Multi-Item",
+        "thickness_microns": 20.0,
+        "width_mm": 1500,
+        "core_id_mm": 76.0,
+        "roll_length_m": 3000.0,
+        "number_of_rolls": 10,
+        "surface_finish": "Gloss",
+        "seal_type": "Heat Seal",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 1250.0,
+        "application": "Standard food pouching packaging",
+        "remarks": "Urgent requirement",
+        "submitted_on": "22 May 2025",
+        "expected_response": "24 May 2025",
+        "status": "suggestion_available",
+        "order_id": null,
+        "rejected_on": null,
+        "rejection_reason": null,
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Matte",
+            "width_mm": 1500,
+            "core_id_mm": 76.0,
+            "quantity_kg": 500.0,
+            "price": 195.0,
+            "tax_code": "GST 12%",
+            "total": 97500.0
+          },
+          {
+            "product_category": "BOPP",
+            "product_type": "Transparent",
+            "width_mm": 1300,
+            "core_id_mm": 76.0,
+            "quantity_kg": 350.0,
+            "price": 210.0,
+            "tax_code": "GST 12%",
+            "total": 73500.0
+          },
+          {
+            "product_category": "BOPET",
+            "product_type": "Clear",
+            "width_mm": 1200,
+            "core_id_mm": 76.0,
+            "quantity_kg": 400.0,
+            "price": 340.0,
+            "tax_code": "GST 12%",
+            "total": 136000.0
+          }
+        ],
+        "suggestion": {
+          "quoted_price_per_kg": 244.76,
+          "total_amount": 305950.0,
+          "valid_until": "28 May 2025",
+          "remarks": "Three-line commercial suggestion matched against available stock lots. Includes volume adjustment and dispatch planning for next week.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "suggested_items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Matte - Food Grade",
+            "width_mm": 1500,
+            "core_id_mm": 76.0,
+            "quantity_kg": 500.0,
+            "price": 198.0,
+            "tax_code": "GST 12%",
+            "total": 99000.0
+          },
+          {
+            "product_category": "BOPP",
+            "product_type": "Transparent - Corona Treated",
+            "width_mm": 1300,
+            "core_id_mm": 76.0,
+            "quantity_kg": 350.0,
+            "price": 205.0,
+            "tax_code": "GST 12%",
+            "total": 71750.0
+          },
+          {
+            "product_category": "BOPET",
+            "product_type": "Clear - High Clarity",
+            "width_mm": 1200,
+            "core_id_mm": 76.0,
+            "quantity_kg": 400.0,
+            "price": 338.0,
+            "tax_code": "GST 12%",
+            "total": 135200.0
+          }
+        ]
+      },
       {
         "id": "ENQ-2025-0057",
         "product_category": "BOPP",
@@ -161,14 +271,38 @@
         "rejected_on": null,
         "rejection_reason": null,
         "suggestion": {
-          "quoted_price_per_kg": 285.0,
-          "total_amount": 142500.0,
+          "quoted_price_per_kg": 282.0,
+          "total_amount": 141000.0,
           "valid_until": "25 May 2025",
-          "remarks": "Premium grade available. Delivery in 5–7 working days.",
+          "remarks": "Premium food-grade heat sealable BOPP is available from the current production plan. Dispatch can be aligned within 5-7 working days.",
           "alternate_product": null,
           "alternate_thickness_microns": null,
           "alternate_width_mm": null
-        }
+        },
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Heat Sealable",
+            "width_mm": 1500,
+            "core_id_mm": 76.0,
+            "quantity_kg": 500.0,
+            "price": 285.0,
+            "tax_code": "GST 12%",
+            "total": 142500.0
+          }
+        ],
+        "suggested_items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Heat Sealable - Premium Food Grade",
+            "width_mm": 1500,
+            "core_id_mm": 76.0,
+            "quantity_kg": 500.0,
+            "price": 282.0,
+            "tax_code": "GST 12%",
+            "total": 141000.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0056",
@@ -192,7 +326,19 @@
         "order_id": null,
         "rejected_on": null,
         "rejection_reason": null,
-        "suggestion": null
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Matte",
+            "width_mm": 1100,
+            "core_id_mm": 76.0,
+            "quantity_kg": 300.0,
+            "price": 195.0,
+            "tax_code": "GST 12%",
+            "total": 58500.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0055",
@@ -216,7 +362,19 @@
         "order_id": null,
         "rejected_on": null,
         "rejection_reason": null,
-        "suggestion": null
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Transparent",
+            "width_mm": 1500,
+            "core_id_mm": 76.0,
+            "quantity_kg": 250.0,
+            "price": 210.0,
+            "tax_code": "GST 12%",
+            "total": 52500.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0054",
@@ -248,7 +406,19 @@
           "alternate_product": null,
           "alternate_thickness_microns": null,
           "alternate_width_mm": null
-        }
+        },
+        "items": [
+          {
+            "product_category": "CPP",
+            "product_type": "Restart Grade",
+            "width_mm": 1500,
+            "core_id_mm": 76.0,
+            "quantity_kg": 400.0,
+            "price": 210.0,
+            "tax_code": "GST 18%",
+            "total": 84000.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0053",
@@ -272,7 +442,19 @@
         "order_id": null,
         "rejected_on": "16 May 2025",
         "rejection_reason": "Size mismatch",
-        "suggestion": null
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "Metalized BOPP",
+            "product_type": "Standard",
+            "width_mm": 5500,
+            "core_id_mm": 152.0,
+            "quantity_kg": 200.0,
+            "price": 180.0,
+            "tax_code": "GST 18%",
+            "total": 36000.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0052",
@@ -304,7 +486,19 @@
           "alternate_product": null,
           "alternate_thickness_microns": null,
           "alternate_width_mm": null
-        }
+        },
+        "items": [
+          {
+            "product_category": "Aluminium Foil",
+            "product_type": "Standard",
+            "width_mm": 1100,
+            "core_id_mm": 76.0,
+            "quantity_kg": 400.0,
+            "price": 520.0,
+            "tax_code": "GST 18%",
+            "total": 208000.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0051",
@@ -336,7 +530,31 @@
           "alternate_product": null,
           "alternate_thickness_microns": null,
           "alternate_width_mm": null
-        }
+        },
+        "items": [
+          {
+            "product_category": "BOPET",
+            "product_type": "Clear",
+            "width_mm": 1300,
+            "core_id_mm": 76.0,
+            "quantity_kg": 350.0,
+            "price": 340.0,
+            "tax_code": "GST 12%",
+            "total": 119000.0
+          }
+        ],
+        "suggested_items": [
+          {
+            "product_category": "BOPET",
+            "product_type": "Clear",
+            "width_mm": 1300,
+            "core_id_mm": 76.0,
+            "quantity_kg": 350.0,
+            "price": 340.0,
+            "tax_code": "GST 12%",
+            "total": 119000.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0050",
@@ -368,7 +586,19 @@
           "alternate_product": null,
           "alternate_thickness_microns": null,
           "alternate_width_mm": null
-        }
+        },
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Antistatic",
+            "width_mm": 1200,
+            "core_id_mm": 76.0,
+            "quantity_kg": 280.0,
+            "price": 320.0,
+            "tax_code": "GST 18%",
+            "total": 89600.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0049",
@@ -392,7 +622,19 @@
         "order_id": null,
         "rejected_on": null,
         "rejection_reason": null,
-        "suggestion": null
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPET",
+            "product_type": "Milky White",
+            "width_mm": 1000,
+            "core_id_mm": 76.0,
+            "quantity_kg": 420.0,
+            "price": 220.0,
+            "tax_code": "GST 18%",
+            "total": 92400.0
+          }
+        ]
       },
       {
         "id": "ENQ-2025-0048",
@@ -416,20 +658,737 @@
         "order_id": null,
         "rejected_on": null,
         "rejection_reason": null,
-        "suggestion": null
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "CPP",
+            "product_type": "Standard",
+            "width_mm": 800,
+            "core_id_mm": 76.0,
+            "quantity_kg": 180.0,
+            "price": 160.0,
+            "tax_code": "GST 18%",
+            "total": 28800.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0047",
+        "product_category": "BOPP",
+        "product_type": "Pearlised",
+        "thickness_microns": 28.0,
+        "width_mm": 950,
+        "core_id_mm": 76.0,
+        "roll_length_m": 2000.0,
+        "number_of_rolls": 8,
+        "surface_finish": "Gloss",
+        "seal_type": "Heat Seal",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 340.0,
+        "application": "Soap wrapping",
+        "remarks": "",
+        "submitted_on": "09 May 2025",
+        "expected_response": "12 May 2025",
+        "status": "suggestion_available",
+        "order_id": null,
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 290.0,
+          "total_amount": 98600.0,
+          "valid_until": "14 May 2025",
+          "remarks": "Standard soap grade. In stock.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Pearlised",
+            "width_mm": 950,
+            "core_id_mm": 76.0,
+            "quantity_kg": 340.0,
+            "price": 290.0,
+            "tax_code": "GST 18%",
+            "total": 98600.0
+          }
+        ],
+        "suggested_items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Pearlised",
+            "width_mm": 950,
+            "core_id_mm": 76.0,
+            "quantity_kg": 340.0,
+            "price": 290.0,
+            "tax_code": "GST 18%",
+            "total": 98600.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0046",
+        "product_category": "BOPET",
+        "product_type": "Clear",
+        "thickness_microns": 10.0,
+        "width_mm": 1200,
+        "core_id_mm": 76.0,
+        "roll_length_m": 4000.0,
+        "number_of_rolls": 4,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "None",
+        "quantity_kg": 260.0,
+        "application": "Capacitor insulation",
+        "remarks": "High dielectric strength required",
+        "submitted_on": "08 May 2025",
+        "expected_response": null,
+        "status": "rejected",
+        "order_id": null,
+        "rejected_on": "09 May 2025",
+        "rejection_reason": "Out of stock / raw material shortage",
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPET",
+            "product_type": "Clear",
+            "width_mm": 1200,
+            "core_id_mm": 76.0,
+            "quantity_kg": 260.0,
+            "price": 340.0,
+            "tax_code": "GST 12%",
+            "total": 88400.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0045",
+        "product_category": "CPP",
+        "product_type": "Metallisable",
+        "thickness_microns": 20.0,
+        "width_mm": 1600,
+        "core_id_mm": 152.0,
+        "roll_length_m": 6000.0,
+        "number_of_rolls": 2,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 450.0,
+        "application": "Barrier lamination",
+        "remarks": "",
+        "submitted_on": "07 May 2025",
+        "expected_response": null,
+        "status": "accepted",
+        "order_id": "ORD-2025-0075",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 225.0,
+          "total_amount": 101250.0,
+          "valid_until": "11 May 2025",
+          "remarks": "Metallising grade. Lead time 10 days.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "CPP",
+            "product_type": "Metallisable",
+            "width_mm": 1600,
+            "core_id_mm": 152.0,
+            "quantity_kg": 450.0,
+            "price": 225.0,
+            "tax_code": "GST 18%",
+            "total": 101250.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0044",
+        "product_category": "Coated BOPP",
+        "product_type": "PVDC Coated",
+        "thickness_microns": 22.0,
+        "width_mm": 1150,
+        "core_id_mm": 76.0,
+        "roll_length_m": 3000.0,
+        "number_of_rolls": 5,
+        "surface_finish": "Gloss",
+        "seal_type": "Heat Seal",
+        "winding": "Outside",
+        "treatment": "PVDC Coated",
+        "quantity_kg": 380.0,
+        "application": "High barrier biscuit packs",
+        "remarks": "Verify aroma barrier properties",
+        "submitted_on": "06 May 2025",
+        "expected_response": "09 May 2025",
+        "status": "submitted",
+        "order_id": null,
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "Coated BOPP",
+            "product_type": "PVDC Coated",
+            "width_mm": 1150,
+            "core_id_mm": 76.0,
+            "quantity_kg": 380.0,
+            "price": 180.0,
+            "tax_code": "GST 18%",
+            "total": 68400.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0043",
+        "product_category": "Metalized BOPP",
+        "product_type": "Standard",
+        "thickness_microns": 18.0,
+        "width_mm": 850,
+        "core_id_mm": 76.0,
+        "roll_length_m": 4000.0,
+        "number_of_rolls": 6,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "None",
+        "quantity_kg": 320.0,
+        "application": "Gifts packaging",
+        "remarks": "",
+        "submitted_on": "05 May 2025",
+        "expected_response": "07 May 2025",
+        "status": "suggestion_available",
+        "order_id": null,
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 305.0,
+          "total_amount": 97600.0,
+          "valid_until": "10 May 2025",
+          "remarks": "Excellent metallic gloss. Delivery next week.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "Metalized BOPP",
+            "product_type": "Standard",
+            "width_mm": 850,
+            "core_id_mm": 76.0,
+            "quantity_kg": 320.0,
+            "price": 305.0,
+            "tax_code": "GST 18%",
+            "total": 97600.0
+          }
+        ],
+        "suggested_items": [
+          {
+            "product_category": "Metalized BOPP",
+            "product_type": "Standard",
+            "width_mm": 850,
+            "core_id_mm": 76.0,
+            "quantity_kg": 320.0,
+            "price": 305.0,
+            "tax_code": "GST 18%",
+            "total": 97600.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0042",
+        "product_category": "BOPP",
+        "product_type": "White Opaque",
+        "thickness_microns": 40.0,
+        "width_mm": 1300,
+        "core_id_mm": 76.0,
+        "roll_length_m": 1500.0,
+        "number_of_rolls": 3,
+        "surface_finish": "Gloss",
+        "seal_type": "Heat Seal",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 290.0,
+        "application": "Ice cream wrap",
+        "remarks": "",
+        "submitted_on": "04 May 2025",
+        "expected_response": null,
+        "status": "rejected",
+        "order_id": null,
+        "rejected_on": "05 May 2025",
+        "rejection_reason": "Capacity constraints on white opaque line",
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "White Opaque",
+            "width_mm": 1300,
+            "core_id_mm": 76.0,
+            "quantity_kg": 290.0,
+            "price": 180.0,
+            "tax_code": "GST 18%",
+            "total": 52200.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0041",
+        "product_category": "Aluminium Foil",
+        "product_type": "Standard",
+        "thickness_microns": 9.0,
+        "width_mm": 1000,
+        "core_id_mm": 76.0,
+        "roll_length_m": 5000.0,
+        "number_of_rolls": 10,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "None",
+        "quantity_kg": 600.0,
+        "application": "House foil rolls",
+        "remarks": "",
+        "submitted_on": "03 May 2025",
+        "expected_response": null,
+        "status": "completed_to_order",
+        "order_id": "ORD-2025-0071",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 490.0,
+          "total_amount": 294000.0,
+          "valid_until": null,
+          "remarks": "Shipped successfully.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "Aluminium Foil",
+            "product_type": "Standard",
+            "width_mm": 1000,
+            "core_id_mm": 76.0,
+            "quantity_kg": 600.0,
+            "price": 490.0,
+            "tax_code": "GST 18%",
+            "total": 294000.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0040",
+        "product_category": "BOPET",
+        "product_type": "Clear",
+        "thickness_microns": 15.0,
+        "width_mm": 1400,
+        "core_id_mm": 76.0,
+        "roll_length_m": 3000.0,
+        "number_of_rolls": 6,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 400.0,
+        "application": "Lidding film",
+        "remarks": "",
+        "submitted_on": "02 May 2025",
+        "expected_response": "05 May 2025",
+        "status": "under_review",
+        "order_id": null,
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPET",
+            "product_type": "Clear",
+            "width_mm": 1400,
+            "core_id_mm": 76.0,
+            "quantity_kg": 400.0,
+            "price": 340.0,
+            "tax_code": "GST 12%",
+            "total": 136000.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0039",
+        "product_category": "BOPP",
+        "product_type": "Matte",
+        "thickness_microns": 15.0,
+        "width_mm": 1250,
+        "core_id_mm": 76.0,
+        "roll_length_m": 3000.0,
+        "number_of_rolls": 4,
+        "surface_finish": "Matte",
+        "seal_type": "None",
+        "winding": "Inside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 250.0,
+        "application": "Luxurious box lamination",
+        "remarks": "Matt level should be premium",
+        "submitted_on": "01 May 2025",
+        "expected_response": "03 May 2025",
+        "status": "accepted",
+        "order_id": "ORD-2025-0069",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 310.0,
+          "total_amount": 77500.0,
+          "valid_until": "06 May 2025",
+          "remarks": "Premium matte film suitable for luxury box laminates.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Matte",
+            "width_mm": 1250,
+            "core_id_mm": 76.0,
+            "quantity_kg": 250.0,
+            "price": 310.0,
+            "tax_code": "GST 12%",
+            "total": 77500.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0038",
+        "product_category": "BOPP",
+        "product_type": "Transparent",
+        "thickness_microns": 20.0,
+        "width_mm": 1800,
+        "core_id_mm": 152.0,
+        "roll_length_m": 4500.0,
+        "number_of_rolls": 2,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "None",
+        "quantity_kg": 210.0,
+        "application": "Adhesive tapes",
+        "remarks": "",
+        "submitted_on": "30 Apr 2025",
+        "expected_response": null,
+        "status": "completed_to_order",
+        "order_id": "ORD-2025-0068",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 205.0,
+          "total_amount": 43050.0,
+          "valid_until": null,
+          "remarks": "Standard grade. Order complete.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Transparent",
+            "width_mm": 1800,
+            "core_id_mm": 152.0,
+            "quantity_kg": 210.0,
+            "price": 205.0,
+            "tax_code": "GST 12%",
+            "total": 43050.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0037",
+        "product_category": "CPP",
+        "product_type": "Standard",
+        "thickness_microns": 35.0,
+        "width_mm": 1100,
+        "core_id_mm": 76.0,
+        "roll_length_m": 2500.0,
+        "number_of_rolls": 5,
+        "surface_finish": "Gloss",
+        "seal_type": "Heat Seal",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 330.0,
+        "application": "Bakery product wrap",
+        "remarks": "",
+        "submitted_on": "29 Apr 2025",
+        "expected_response": null,
+        "status": "accepted",
+        "order_id": "ORD-2025-0065",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 205.0,
+          "total_amount": 67650.0,
+          "valid_until": "04 May 2025",
+          "remarks": "Standard packaging grade. In production list.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "CPP",
+            "product_type": "Standard",
+            "width_mm": 1100,
+            "core_id_mm": 76.0,
+            "quantity_kg": 330.0,
+            "price": 205.0,
+            "tax_code": "GST 18%",
+            "total": 67650.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0036",
+        "product_category": "BOPET",
+        "product_type": "Milky White",
+        "thickness_microns": 50.0,
+        "width_mm": 900,
+        "core_id_mm": 76.0,
+        "roll_length_m": 1200.0,
+        "number_of_rolls": 8,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "None",
+        "quantity_kg": 440.0,
+        "application": "Electrical insulation",
+        "remarks": "",
+        "submitted_on": "28 Apr 2025",
+        "expected_response": null,
+        "status": "completed_to_order",
+        "order_id": "ORD-2025-0064",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPET",
+            "product_type": "Milky White",
+            "width_mm": 900,
+            "core_id_mm": 76.0,
+            "quantity_kg": 440.0,
+            "price": 220.0,
+            "tax_code": "GST 18%",
+            "total": 96800.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0035",
+        "product_category": "Coated BOPET",
+        "product_type": "PVDC Coated",
+        "thickness_microns": 14.0,
+        "width_mm": 1200,
+        "core_id_mm": 76.0,
+        "roll_length_m": 4000.0,
+        "number_of_rolls": 3,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "PVDC Coated",
+        "quantity_kg": 270.0,
+        "application": "High barrier food packs",
+        "remarks": "",
+        "submitted_on": "27 Apr 2025",
+        "expected_response": null,
+        "status": "accepted",
+        "order_id": "ORD-2025-0062",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "Coated BOPET",
+            "product_type": "PVDC Coated",
+            "width_mm": 1200,
+            "core_id_mm": 76.0,
+            "quantity_kg": 270.0,
+            "price": 220.0,
+            "tax_code": "GST 18%",
+            "total": 59400.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0034",
+        "product_category": "BOPP",
+        "product_type": "Heat Sealable",
+        "thickness_microns": 25.0,
+        "width_mm": 2000,
+        "core_id_mm": 76.0,
+        "roll_length_m": 3000.0,
+        "number_of_rolls": 2,
+        "surface_finish": "Gloss",
+        "seal_type": "Heat Seal",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 190.0,
+        "application": "General wrap",
+        "remarks": "",
+        "submitted_on": "26 Apr 2025",
+        "expected_response": null,
+        "status": "completed_to_order",
+        "order_id": "ORD-2025-0061",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Heat Sealable",
+            "width_mm": 2000,
+            "core_id_mm": 76.0,
+            "quantity_kg": 190.0,
+            "price": 280.0,
+            "tax_code": "GST 12%",
+            "total": 53200.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0033",
+        "product_category": "CPP",
+        "product_type": "Standard",
+        "thickness_microns": 25.0,
+        "width_mm": 1300,
+        "core_id_mm": 76.0,
+        "roll_length_m": 3000.0,
+        "number_of_rolls": 4,
+        "surface_finish": "Gloss",
+        "seal_type": "Heat Seal",
+        "winding": "Outside",
+        "treatment": "Corona Treated",
+        "quantity_kg": 360.0,
+        "application": "Snack packs",
+        "remarks": "",
+        "submitted_on": "25 Apr 2025",
+        "expected_response": null,
+        "status": "accepted",
+        "order_id": "ORD-2025-0059",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": {
+          "quoted_price_per_kg": 215.0,
+          "total_amount": 77400.0,
+          "valid_until": null,
+          "remarks": "Dispatched.",
+          "alternate_product": null,
+          "alternate_thickness_microns": null,
+          "alternate_width_mm": null
+        },
+        "items": [
+          {
+            "product_category": "CPP",
+            "product_type": "Standard",
+            "width_mm": 1300,
+            "core_id_mm": 76.0,
+            "quantity_kg": 360.0,
+            "price": 215.0,
+            "tax_code": "GST 18%",
+            "total": 77400.0
+          }
+        ]
+      },
+      {
+        "id": "ENQ-2025-0032",
+        "product_category": "BOPP",
+        "product_type": "Antistatic",
+        "thickness_microns": 35.0,
+        "width_mm": 1050,
+        "core_id_mm": 76.0,
+        "roll_length_m": 2000.0,
+        "number_of_rolls": 6,
+        "surface_finish": "Gloss",
+        "seal_type": "None",
+        "winding": "Outside",
+        "treatment": "Antistatic",
+        "quantity_kg": 310.0,
+        "application": "CD box wrapping",
+        "remarks": "",
+        "submitted_on": "24 Apr 2025",
+        "expected_response": null,
+        "status": "completed_to_order",
+        "order_id": "ORD-2025-0058",
+        "rejected_on": null,
+        "rejection_reason": null,
+        "suggestion": null,
+        "items": [
+          {
+            "product_category": "BOPP",
+            "product_type": "Antistatic",
+            "width_mm": 1050,
+            "core_id_mm": 76.0,
+            "quantity_kg": 310.0,
+            "price": 180.0,
+            "tax_code": "GST 18%",
+            "total": 55800.0
+          }
+        ]
       }
     ]
   },
-
   "_product_reference": {
-    "categories": ["BOPP", "BOPET", "CPP", "Metalized BOPP", "Metalized BOPET", "Coated BOPP", "Coated BOPET", "Aluminium Foil"],
-    "bopp_types": ["Heat Sealable", "Matte", "Transparent", "Antistatic", "White Opaque", "Pearlised"],
-    "bopet_types": ["Clear", "Milky White", "Opaque", "Antistatic", "Thermally Stable", "Isotropic"],
-    "cpp_types": ["Standard", "Restart Grade", "Metallisable"],
-    "surface_finish_options": ["Gloss", "Matte"],
-    "seal_type_options": ["Heat Seal", "Cold Seal", "None"],
-    "winding_options": ["Inside", "Outside"],
-    "treatment_options": ["None", "Corona Treated", "Antistatic", "PVDC Coated"]
+    "categories": [
+      "BOPP",
+      "BOPET",
+      "CPP",
+      "Metalized BOPP",
+      "Metalized BOPET",
+      "Coated BOPP",
+      "Coated BOPET",
+      "Aluminium Foil"
+    ],
+    "bopp_types": [
+      "Heat Sealable",
+      "Matte",
+      "Transparent",
+      "Antistatic",
+      "White Opaque",
+      "Pearlised"
+    ],
+    "bopet_types": [
+      "Clear",
+      "Milky White",
+      "Opaque",
+      "Antistatic",
+      "Thermally Stable",
+      "Isotropic"
+    ],
+    "cpp_types": [
+      "Standard",
+      "Restart Grade",
+      "Metallisable"
+    ],
+    "surface_finish_options": [
+      "Gloss",
+      "Matte"
+    ],
+    "seal_type_options": [
+      "Heat Seal",
+      "Cold Seal",
+      "None"
+    ],
+    "winding_options": [
+      "Inside",
+      "Outside"
+    ],
+    "treatment_options": [
+      "None",
+      "Corona Treated",
+      "Antistatic",
+      "PVDC Coated"
+    ]
   },
   "registration": {
     "customer_code": "PP001",
